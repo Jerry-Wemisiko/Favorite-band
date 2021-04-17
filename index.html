@@ -1,59 +1,86 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Favourite Band</title>
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body>
-       <header>
-        <h1>BTS</h1>
-              <p>Also known as the Bangtan Boys, is a seven-member South Korean boy band that began formation in 2010 and debuted in 2013 under Big Hit Entertainment. <br>
-            The septet—composed of Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook—co-writes and co-produces much of their own output. <br>
-            Originally a hip hop group, their musical style has evolved to include a wide range of genres. This is my favourite band because:<br>
-            Their lyrics, often focused on personal and social commentary, touch on the themes of mental health, troubles of school-age youth, loss, self-love <br>
-            Their work features references to literature and psychological concepts and includes an alternative universe storyline.<br>
-            The group has released several albums and performed on several world tours.
-             </p>
-       </header>
-
-        <div>
-            <h1>Artists</h1>
-            <ul>
-                <li>Jin<br>
-                <img height="200px" width="300px" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_UQyjIeGb4dVsXZWQmpfOUV0Ddwu4AUkg-nr-sFDx4a0lPApN" >
-                
-                </li>
-
-                <li>Suga<br>
-                    <img height="200px" width="300px" src="https://fsb.zobj.net/crop.php?r=H_CE8uqoYYrep0htzAbVXcnvNcLvdtIbkqlQSBwCIVZglxesLL6JqEwysompYKU58-MlbMGclITAifK75Kys4_pZymkD5MQbeMgNwrm48HMvO1KXYLDQ1lEBb1Hap50RE6zoTVwr5JtFevzD">
-                
-
-                </li>
-                <li>J-Hope<br>
-                 <img height="200px" width="300px" src="data:image/jpeg;base64,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">
-                
-                </li>
-                <li>RM<br>
-                    <img height="200px" width="300px" src="https://fsa.zobj.net/crop.php?r=0jn3PQOtTEcY7rtblgqiRv-5r6GvQ6i4D7ggdQnuaCHCo3XKSxx-JpX3gg6foM1Q4cUgjKm7wQFKNK7kpqFofxlJRa-xKax0yzNjq3fcvb5W3Mk4-qeyC3_bXzkVDJ0dsJnPSdkFsDcIRUb0">
-                </li>
-                <li>Jimin<br>
-                <img height="200px" width="300px" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/17-jimin-networth-1558644505.jpg?resize=768:*" >
-                
-                </li>
-                <li>V<br>
-                    <img height="200px" width="300px" src="https://assets.teenvogue.com/photos/5df7d4e8cea4e400082b8925/16:9/w_2560%2Cc_limit/GettyImages-1152344833.jpg" >
-                </li>
-                <li>Jungkook<br>
-                    <img height="200px" width="300px" src="https://cdn.blocktoro.com/wp-content/uploads/2019/07/Jungbook-is-BTSs-Golden-Maknae-See-Details-e1563477319498.jpg">
-
-                </li>
-            </ul>
-
-        </div>
-
-        <div>
-            <h1>Favourite Songs</h1>
-        </div>
-
+      <div class="container">
+        <header>
+            <h1>BTS</h1>
+            <img  height="30%" width="100%" src="https://assets.teenvogue.com/photos/60631fcd88ea940ff4be7153/16:9/w_2560%2Cc_limit/GettyImages-1192563396.jpg">
+                  <p>Also known as the Bangtan Boys, is a seven-member South Korean boy band that began formation in 2010 and debuted in 2013 under Big Hit Entertainment.
+                The septet—composed of Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook—co-writes and co-produces much of their own output. 
+                Originally a hip hop group, their musical style has evolved to include a wide range of genres. This is my favourite band because:
+                Their lyrics, often focused on personal and social commentary, touch on the themes of mental health, troubles of school-age youth, loss, self-love 
+                Their work features references to literature and psychological concepts and includes an alternative universe storyline.
+                The group has released several albums and performed on several world tours.
+                 </p>
+           </header>
+    
+            <div id="About">
+                <h1>Artists</h1>
+                <ul>
+                    <li>
+                        <h2>Jin</h2><br>
+                    <img height="200px" width="280px" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_UQyjIeGb4dVsXZWQmpfOUV0Ddwu4AUkg-nr-sFDx4a0lPApN" >
+                        <div id="description"> <p>Kim Seok-jin, also known by his stage name Jin, is a South Korean singer, songwriter, and member of the South Korean boy band BTS since June 2013.
+                            He co-wrote and released three solo tracks with BTS: "Awake", "Epiphany", and "Moon", all of which have charted on South Korea's Gaon Digital Chart.</p>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <h2>Suga</h2><br>
+                        <img height="200px" width="280px" src="https://assets.teenvogue.com/photos/5fbbd66767fb27b4c0301920/1:1/w_2000,h_2000,c_limit/GettyImages-1207754980.jpg">
+                        <div id="description"><p>Min Yoon-gi, better known by his stage names Suga and Agust D, is a South Korean rapper, songwriter and record producer.
+                            Managed by Big Hit Music, he debuted as a member of the South Korean pop idol group BTS in 2013</p>
+    </div>
+                    </li>
+                    <li>
+                        <h2>J-Hope</h2><br>
+                     <img height="200px" width="280px" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/J-Hope_at_the_2019_Golden_Disc_Awards_day_1_%284%29.jpg">
+                    <div id="description"> Jung Ho-seok, better known by his stage name J-Hope, is a South Korean rapper, songwriter, dancer, and record producer. 
+                        In 2013, J-Hope made his debut as a member of South Korean boy band BTS, managed under Big Hit Music. 
+                        J-Hope released his first solo mixtape, Hope World, worldwide on March 1, 2018.</div>
+                    </li>
+                    <li>
+                        <h2>RM</h2><br>
+                        <img height="200px" width="280px" src="https://fsa.zobj.net/crop.php?r=0jn3PQOtTEcY7rtblgqiRv-5r6GvQ6i4D7ggdQnuaCHCo3XKSxx-JpX3gg6foM1Q4cUgjKm7wQFKNK7kpqFofxlJRa-xKax0yzNjq3fcvb5W3Mk4-qeyC3_bXzkVDJ0dsJnPSdkFsDcIRUb0">
+                        <div id="description"><p>Kim Nam-joon, better known by his stage name RM, is a South Korean rapper, songwriter, and record producer.
+                            He is the leader of the South Korean boy group BTS. In 2015, he released his first solo mixtape, RM</p></div>
+                    </li>
+    
+                    <li>
+                        <h2>Jimin</h2><br>
+                    <img height="200px" width="280px" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/17-jimin-networth-1558644505.jpg?resize=768:*" >
+                    <div id="description"><p>Park Ji-min, better known mononymously as Jimin, is a South Korean singer, songwriter, and dancer.
+                        In 2013, he debuted as a member of the South Korean boy band BTS, under the record label Big Hit</p></div>
+                    </li>
+                    <li>
+                        <h2>V</h2><br>
+                        <img height="200px" width="280px" src="https://assets.teenvogue.com/photos/5df7d4e8cea4e400082b8925/16:9/w_2560%2Cc_limit/GettyImages-1152344833.jpg" >
+                        <div id="description"><p>Kim Tae-hyung, also known by his stage name V, is a South Korean singer, songwriter, and actor.
+                            He is a vocalist of the South Korean boy group BTS.</p></div>
+                    </li>
+                    <li>
+                        <h2>Jungkook</h2><br>
+                        <img height="200px" width="280px" src="https://cdn.blocktoro.com/wp-content/uploads/2019/07/Jungbook-is-BTSs-Golden-Maknae-See-Details-e1563477319498.jpg">
+                        <div id="description"><p>Jeon Jung-kook, better known mononymously as Jungkook, is a South Korean singer and songwriter.
+                            He is the youngest member of and vocalist in the South Korean boy band BTS.</p>
+     </div>
+                    </li>
+                </ul>
+    
+            </div>
+    
+    
+            <div>
+                <h1>Favourite Songs</h1>
+            </div>
+    
+      </div>
     </body>
 </html>

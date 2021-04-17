@@ -1,8 +1,19 @@
 *{
-    background-color: bisque;
+    background-color: rgb(189, 168, 142);
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position:static;
+    border-width: 700px;
+   
 }
 
-
+.container{
+    align-items: center;
+    justify-content: center;
+    padding: 0 20% 0;
+    
+} 
 h1
 {
     font-weight: 700;
@@ -11,6 +22,22 @@ h1
     text-align: center;
 }
 
-p{
-    text-align: center;
-}
+
+li{
+
+     display: inline-block;
+
+ }
+ 
+ h2
+ {
+     font-weight: 700;
+ }
+ 
+ #About
+ {
+     text-align:center;
+     justify-content: center;
+     text break-after:width: 10px ;
+
+ }

@@ -1,20 +1,18 @@
 *{
-    background-color: rgb(189, 168, 142);
-    justify-content: center;
     align-items: center;
-    box-sizing: border-box;
     position:static;
-    border-width: 700px;
     border-style:none;
-    image-orientation: from-image;
+    justify-content: center;
    
 }
 
 .container{
-    align-items: center;
+    background-color:rgb(189, 168, 142); 
+    border-width: 500px;
+    margin:0 100px 0 100px ;
    
-    padding: 0 20% 0;
-    margin:10px ;
+
+ 
     
 } 
 h1
@@ -26,7 +24,6 @@ h1
 }
 
 
-
  h2
  {
      font-weight: 700;
@@ -34,10 +31,14 @@ h1
  
  #About
  {
+    
      text-align:center;
-     justify-content: center;
-     position: relative;
-
+     display: flex;
+     flex-wrap:wrap;
+     flex-direction: row;
+     flex-flow: row;
+     justify-content: space-around;
+     
 
  }
  

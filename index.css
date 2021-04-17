@@ -5,13 +5,16 @@
     box-sizing: border-box;
     position:static;
     border-width: 700px;
+    border-style:none;
+    image-orientation: from-image;
    
 }
 
 .container{
     align-items: center;
-    justify-content: center;
+   
     padding: 0 20% 0;
+    margin:10px ;
     
 } 
 h1
@@ -23,12 +26,7 @@ h1
 }
 
 
-li{
 
-     display: inline-block;
-
- }
- 
  h2
  {
      font-weight: 700;
@@ -38,6 +36,9 @@ li{
  {
      text-align:center;
      justify-content: center;
-     text break-after:width: 10px ;
+     position: relative;
+
 
  }
+ 
+ #fav{}

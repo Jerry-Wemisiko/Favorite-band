@@ -3,6 +3,7 @@
   
     border: 500px;
     padding: 0 20px 0 20px;
+    text-align: justify;
     
 }
 
@@ -87,7 +88,7 @@ h1
          margin-right: 50px ;
          align-content: center;
          text-align: center;
-         padding-left: 30px;
+         padding-left: 30pxg;
 
         }
 }

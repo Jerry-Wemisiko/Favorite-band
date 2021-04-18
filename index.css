@@ -30,9 +30,7 @@ h1
    padding-inline-end: 30px;
     background-color:#bc8f8f;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
 
 }
 
@@ -141,14 +139,6 @@ margin: 0 10px 0 10px;
     flex:1;
     margin: 0 10px 0 10px;
  }
- 
-#band{
-    border: groove;
-    background-color:#bc8f8f;
-    text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 h1:hover{
     background-color: yellow;
 }

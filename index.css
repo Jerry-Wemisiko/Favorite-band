@@ -1,44 +1,65 @@
-*{
-    align-items: center;
-    position:static;
-    border-style:none;
-    justify-content: center;
-   
-}
-
 .container{
+    border: 0 500px;
     background-color:rgb(189, 168, 142); 
-    border-width: 500px;
     margin:0 100px 0 100px ;
-   
+    padding:10px 0 10px;
+    margin-top: 0;
+    text-align: center;
+    display:inline-block;
+  
 
- 
+
     
 } 
+
 h1
 {
     font-weight: 700;
     color: red;
     font-size: xx-large;
-    text-align: center;
+    
 }
 
 
- h2
- {
-     font-weight: 700;
- }
- 
- #About
- {
-    
-     text-align:center;
-     display: flex;
-     flex-wrap:wrap;
-     flex-direction: row;
-     flex-flow: row;
-     justify-content: space-around;
-     
 
  }
- 
+
+
+ #About{
+    
+    margin-top: 0;
+    text-align: center;
+    display:inline-block;
+ }
+
+
+
+ p{
+     text-align: center;
+     display:inline-block;
+
+ }
+
+ #description{
+    margin:0 700px 0 700px ;
+    padding:10px 0 10px; 
+    text-align: center;
+     background-color: lightseagreen;
+     border-right: 500px;
+ }
+
+ #Artists{
+
+    align-items: center;
+    text-align: center;
+    display:inline-block;
+    
+   
+
+ }
+    #name{
+        display:flex;
+    }
+
+
+

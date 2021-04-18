@@ -1,10 +1,12 @@
-*{
+*
+{
   
     border: 500px;
     padding: 0 20px 0 20px;
     
 }
-body{
+body
+{
     background-color:teal;
     font-style: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,7 +17,8 @@ body{
     align-items: center;
 }
 
-h1{
+h1
+{
     border:500px ;
     margin-left: 20px;
    padding-inline-end: 30px;
@@ -24,11 +27,14 @@ h1{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+    
 
 }
 
-@media(min-width:768px){
-    .container-1{
+@media(min-width:768px)
+{
+    .container-1
+    {
    
         display:flex;
         border: 1px;
@@ -38,9 +44,10 @@ h1{
         margin-bottom: 100px;
        
         
-        }
+    }
         
-        .container-2{
+        .container-2
+        {
             display: flex;
             justify-content: space-between;
             width:62%;
@@ -52,43 +59,27 @@ h1{
            
         }
         
-        
+        .fav
+        {
     
-}
-.fav{
-    
-        border: 1px solid brown;
-        margin:5px;
-        display: flex;
-        border: 1px;
-        justify-content: space-between;
-      list-style-position: inside;
-
+            border: 1px solid brown;
+            margin:5px;
+            display: flex;
+            border: 1px;
+            justify-content: space-between;
+          list-style-position: inside;
+        }
 
 }
-
-
-
-
-
-
-                    
- /* #About{
-    border-width:  500px;
-     background-color: seagreen;
-     /* justify-t: center; */
-    
-     
- } 
-
- #box-1
- {
+ 
+#box-1
+{
     flex: 1;
     margin: 0 10px 0 10px;
- }
+}
 
  #box-2
- { 
+{ 
     flex: 1;
     margin: 0 10px 0 10px;
  }
@@ -136,4 +127,36 @@ margin: 0 10px 0 10px;
     background-color:#bc8f8f;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fav:hover{
+    background-color: yellow;
+}
+
+
+#song1 {
+flex: 1;
+margin: 0 10px 0 10px;
+}
+
+#song2 
+{
+flex: 1;
+}
+#song3
+{
+    flex: 1;
+    margin: 0 10px 0 10px;
+}
+
+#song4
+{
+    flex: 1;
+    margin: 0 10px 0 10px;
+}
+
+#song5
+{
+    flex: 1;
+    margin: 0 10px 0 10px;
 }

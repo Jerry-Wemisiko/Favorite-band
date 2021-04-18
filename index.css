@@ -28,7 +28,6 @@ h1
     border:500px ;
     margin-left: 20px;
    padding-inline-end: 30px;
-    width:max-content;
     background-color:#bc8f8f;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -93,7 +92,7 @@ h1
         }
 }
  
-#box-1
+#box-1    
 {
     flex: 1;
     margin: 0 10px 0 10px;
@@ -142,13 +141,6 @@ margin: 0 10px 0 10px;
     flex:1;
     margin: 0 10px 0 10px;
  }
- 
-#band{
-    border: groove;
-    background-color:#bc8f8f;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 h1:hover{
     background-color: yellow;

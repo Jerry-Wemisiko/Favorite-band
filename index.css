@@ -90,7 +90,7 @@ h1
         }
 }
  
-#box-1    
+#box-1
 {
     flex: 1;
     margin: 0 10px 0 10px;
@@ -139,10 +139,6 @@ margin: 0 10px 0 10px;
     flex:1;
     margin: 0 10px 0 10px;
  }
-<<<<<<< HEAD
-=======
-
->>>>>>> 1e80ae6bfa312b3f6c81e965316e4d1f6f638be9
 h1:hover{
     background-color: yellow;
 }

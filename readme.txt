@@ -1,4 +1,4 @@
-Copyright (c) [2021] [Jerry Wemisiko]
+Copyright (c) 2021 Jerry Wemisiko
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
